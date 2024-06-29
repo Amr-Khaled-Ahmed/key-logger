@@ -1,4 +1,5 @@
-# Keystroke Sharing Server
+# Key logger
+
 
 This Python script sets up a server that captures keystrokes using the `pynput` library and sends them to connected clients over a TCP connection.
 
