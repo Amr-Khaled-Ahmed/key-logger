@@ -1,21 +1,20 @@
-# Key logger
+# Keylogger
 
+This repository contains a simple keylogger implemented in Python. The keylogger captures keystrokes from the local system and sends them to a server for logging.
 
-This Python script sets up a server that captures keystrokes using the `pynput` library and sends them to connected clients over a TCP connection.
+## Features
 
-## Prerequisites
+- Captures keystrokes from the keyboard using the `pynput` library.
+- Sends captured keystrokes to a specified server using TCP/IP socket communication.
+- Runs discreetly in the background.
 
-- Python 3.x
-- `pynput` library (`pip install pynput`)
+## Getting Started
 
-## How It Works
+To get a local copy up and running follow these simple steps.
 
-1. **Keystroke Capture**: The script captures keystrokes using `pynput.keyboard.Listener`.
+### Prerequisites
 
-2. **Server Setup**: It sets up a TCP server that listens on `localhost` (`127.0.0.1`) and port `1234`.
+Make sure you have Python 3.x installed.
 
-3. **Sending Keystrokes**: Keystrokes are sent to connected clients in real-time whenever there are new keystrokes captured.
-
-4. **Threading**: It utilizes threading to handle keystroke sending and key press capturing concurrently.
-
-
+```bash
+sudo apt install python3
