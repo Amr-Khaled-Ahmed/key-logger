@@ -17,16 +17,4 @@ This Python script sets up a server that captures keystrokes using the `pynput` 
 
 4. **Threading**: It utilizes threading to handle keystroke sending and key press capturing concurrently.
 
-## Future Enhancements
 
-- **Encryption**: Add encryption to secure keystroke transmission.
-- **Client Management**: Implement multiple client support and robust error handling.
-- **User Interface**: Develop a simple GUI for better usability.
-- **Performance Optimization**: Enhance performance, reduce latency, and manage resources efficiently.
-- **Error Handling**: Implement comprehensive error handling to ensure robustness.
-
-## Usage
-
-1. Install dependencies:
-   ```bash
-   pip install pynput
