@@ -8,9 +8,6 @@ This repository contains a simple keylogger implemented in Python. The keylogger
 - Sends captured keystrokes to a specified server using TCP/IP socket communication.
 - Runs discreetly in the background.
 
-## Getting Started
-
-To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
